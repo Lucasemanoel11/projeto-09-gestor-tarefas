@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestor de Tarefas Inteligente</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container-tarefas">
+    <h1>Gestor de Tarefas</h1>
+    <p class="subtitulo-tarefas">Organize estudos de violino, leituras em francês e notas filosóficas.</p>
+
+    <form id="formulario-tarefa" class="formulario-tarefa">
+      <label for="campo-tarefa" class="rotulo-tarefa">Nova tarefa</label>
+      <div class="linha-entrada">
+        <input type="text" id="campo-tarefa" class="campo-tarefa" placeholder="Ex.: Estudar escalas em Ré maior">
+        <button type="submit" id="botao-adicionar" class="botao-adicionar">Adicionar</button>
+      </div>
+    </form>
+
+    <ul id="lista-tarefas" class="lista-tarefas"></ul>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
